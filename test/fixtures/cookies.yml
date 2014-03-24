@@ -1,0 +1,19 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  name: MyString
+  water: 1
+  sugar: 1
+  salt: 1
+  eggs: 1
+  yeast: 1
+  nutella: 1
+
+two:
+  name: MyString
+  water: 1
+  sugar: 1
+  salt: 1
+  eggs: 1
+  yeast: 1
+  nutella: 1

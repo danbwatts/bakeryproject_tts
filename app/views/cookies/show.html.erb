@@ -1,0 +1,39 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Name:</strong>
+  <%= @cooky.name %>
+</p>
+
+<p>
+  <strong>Water:</strong>
+  <%= @cooky.water %>
+</p>
+
+<p>
+  <strong>Sugar:</strong>
+  <%= @cooky.sugar %>
+</p>
+
+<p>
+  <strong>Salt:</strong>
+  <%= @cooky.salt %>
+</p>
+
+<p>
+  <strong>Eggs:</strong>
+  <%= @cooky.eggs %>
+</p>
+
+<p>
+  <strong>Yeast:</strong>
+  <%= @cooky.yeast %>
+</p>
+
+<p>
+  <strong>Nutella:</strong>
+  <%= @cooky.nutella %>
+</p>
+
+<%= link_to 'Edit', edit_cookie_path(@cooky) %> |
+<%= link_to 'Back', cookies_path %>
